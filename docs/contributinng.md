@@ -4,15 +4,16 @@ sidebar_position: 5
 
 # Contributing
 
-We are constantly seeking contributors to assist in adding new projects, improving the CLI, enhancing tests or updating our doccumentation.
+We are constantly seeking contributors to help add new projects, improve the CLI, enhance tests or update our documentation.
 
 ## Adding new projects
-You can add a new project to `good-first-issue` by submiting a Pull Request. This will require you to fill in and submit a few components:
+You can add a new project to Good First Issue by submitting a Pull Request. This requires you to update configuration files and metadata as outlined below:
 
-1. Update your `data/projects.json` file
-- Add your project name to the list of project in the correct alphabetical order, with the project carrying an object that includes: `name`, `description` and `q` (represents the GitHub search query).
+1. Update your `data/projects.json` file:
 
-2. Automatically update the `READ.ME` file with your new project data by running:
+Add your project to `data/projects.json` in the correct alphabetical order. Each added project should include an object with `name`, `description`, and `q` (the GitHub search query).
+
+2. Automatically update the `README.md` file with your new project data by running:
 
 ```bash
 npm run markdown
@@ -20,7 +21,7 @@ npm run markdown
 
 ## Local testing
 
-Before submitting a Pull Request, we advice that you test your changes locally to ensure your merged code works as expected. This will involve:
+Before submitting a Pull Request, we advise testing your changes locally to ensure they work as expected. This will involve:
 
 1. Running the CLI globally in your Pull Request branch using:
 
@@ -28,13 +29,17 @@ Before submitting a Pull Request, we advice that you test your changes locally t
 npm i -g
 ```
 
+<i>This installs your module globally and allows the CLI command to run from anywhere in your terminal</i>.
+
 or
 
 ```bash
 npm link
 ```
 
-<i>To avoid shipping code that are not explicitly listed, we limit files published to npm using the `files` property in `package.json`</i>.
+<i>This links your project to the global node_modules folder, allowing you to test your CLI as if it were globally installed</i>.
+
+<i>To avoid shipping code that is not explicitly listed, we limit files published to npm using the `files` property in `package.json`</i>.
 
 2. Testing your pull request automatically:
 
