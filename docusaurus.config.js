@@ -41,6 +41,11 @@ const config = {
     locales: ['en'],
   },
 
+  stylesheets: [
+  'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css',
+],
+
+
   presets: [
     [
       'classic',
@@ -112,7 +117,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/start/intro',
               },
             ],
           },
@@ -142,7 +147,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/cutenode/good-first-issue',
               },
             ],
           },
