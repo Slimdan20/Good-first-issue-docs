@@ -9,6 +9,7 @@
   font-size: 3rem; /* text-5xl */
   font-weight: 500;
   margin-bottom: 1rem;
+  width: 60%;
 }
 
 .ctaButton {
@@ -102,4 +103,96 @@
 .cardLink i {
   font-size: 1.4rem;
   margin-top: 6px;
+}
+
+@media screen and (max-width: 1024px) {
+
+      .hero {
+  margin-left: 2rem;   /* ml-16 */
+  margin-bottom: 8rem; /* mb-44 */
+}
+
+
+      .heroTitle {
+  width: 90%;
+}
+
+.docsSection {
+  margin-left: 2rem; /* ml-16 */
+  margin-bottom: 4rem;
+}
+
+.card {
+  width: 47%;
+}
+
+.cardsGrid {
+  gap: 2rem; /* gap-20 */
+
+}
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .hero {
+  margin-left: 2rem;   /* ml-16 */
+  margin-bottom: 8rem; /* mb-44 */
+}
+
+    .heroTitle {
+  width: 90%;
+}
+
+.docsSection {
+  margin-left: 2rem; /* ml-16 */
+  margin-bottom: 4rem;
+}
+
+.card {
+  width: 47%;
+}
+
+.cardsGrid {
+  gap: 1.5rem; /* gap-20 */
+}
+
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+  margin-left: 2rem;   /* ml-16 */
+  margin-bottom: 8rem; /* mb-44 */
+}
+
+  .heroTitle {
+  font-size: 1.5rem; /* text-5xl */
+  margin-bottom: 0.8rem;
+  width: 90%;
+}
+
+.ctaButton {
+  width: 7.5rem;
+  font-size: 1.1rem;
+}
+
+.docsSection {
+  margin-left: 2rem; /* ml-16 */
+  margin-bottom: 4rem;
+}
+
+.cardsGrid {
+  display: flex;
+  gap: 2rem; /* gap-20 */
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 2rem; 
+  width: 90%; 
+
+}
+
+
+
 }

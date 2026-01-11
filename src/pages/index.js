@@ -10,8 +10,7 @@ export default function Home() {
         {/* Hero section */}
         <div className={styles.hero}>
           <h1 className={styles.heroTitle}>
-            Find open-source projects and <br />
-            contribute with ease.
+            Find open-source projects and contribute with ease.
           </h1>
           <Link to="/docs/start/intro">
           <button className={styles.ctaButton}>Get Started</button>
