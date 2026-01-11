@@ -5,12 +5,12 @@ sidebar_position: 4
 # Automation and scripting
 Good First Issue can be used in scripts and automated workflows to move beginner-friendly issue discovery from manual workflows to one needing little or no human input.
 
-Maintainers can also utilize its automation to monitor repository health, and ensure issues are readily available to contributors.
+Maintainers can also utilize its automation to monitor repository health and ensure issues are readily available to contributors.
 
 This allows developers to consistently discover issues to work on, while helping teams ensure entry-level issues remain available without manual checks.
 
 ## Shell scripting
-You can use Good First Issue in shell scripts to fetch issues with the `good-first-issue` label automatically.
+You can use Good First Issue in shell scripts to fetch issues with the `good first issue` label automatically.
 
 For automated workflows, Good First Issue should be run in a non-interactive mode.
 

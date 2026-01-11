@@ -6,8 +6,8 @@ sidebar_position: 3
 
 Good First Issue offers commands and flags to help you:
 
-- Discover and select beginner-friendly issues labelled `good-first-issue`.
-- Control the opening and retrieval of issues.
+- Discover and select beginner-friendly issues labelled `good first issue`.
+- Control how issues are retrieved and opened.
 
 
 ## Basic commands
@@ -25,7 +25,7 @@ Where `target` can be:
 
 ### `good-first-issue`
 
-Run Good First Issue in interactive mode and open a project selector in the terminal using:
+Run Good First Issue in interactive mode and opens a project selector in the terminal using:
 
 ```bash
 good-first-issue
@@ -33,7 +33,7 @@ good-first-issue
 
 ### `good-first-issue <project>`
 
-Search for issues with the `good-first-issue` label from the [curated list of projects](https://github.com/cutenode/good-first-issue#projects). 
+Search for issues labelled `good first issue` within a [curated list of projects](https://github.com/cutenode/good-first-issue#projects). 
 
 **Usage:**
 
@@ -43,7 +43,7 @@ good-first-issue mocha
 
 ### `good-first-issue <org>`
 
-Search GitHub organizations or users with the `good-first-issue` label.
+Search GitHub organizations or users with the `good first issue` label.
 
 **Usage:**
 
@@ -53,7 +53,7 @@ good-first-issue github
 
 ### `good-first-issue <org>/<repo>`
 
-Search a specific GitHub repository under an organization with the `good-first-issue` label.
+Search a specific GitHub repository under an organization with the `good first issue` label.
 
 **Usage:**
 
@@ -75,7 +75,7 @@ good-first-issue mocha --open
 
 ### `-f, --first`
 
-Returns the first/top issue with the label `good-first-issue`.
+Returns the first matching issue with the label `good first issue`.
 
 **Usage:**
 

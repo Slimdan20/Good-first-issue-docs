@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Contributing
 
-We are constantly seeking contributors to help add new projects, improve the CLI, enhance tests or update our documentation.
+We are constantly seeking contributors to help add new projects, improve the CLI, enhance tests, or update our documentation.
 
 ## Adding new projects
 You can add a new project to Good First Issue by submitting a Pull Request. This requires you to update configuration files and metadata as outlined below:

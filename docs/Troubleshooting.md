@@ -18,7 +18,7 @@ Authenticate with your GitHub personal access token using `--auth <token>` to in
 
 - **No issues found:**
 
-The CLI may return no result if the repository has no issues labelled `good-first-issue`.
+The CLI may return no result if the repository has no issues labelled `good first issue`.
 
 - **Invalid repository or project:**
 
