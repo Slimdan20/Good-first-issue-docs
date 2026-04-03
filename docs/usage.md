@@ -90,5 +90,5 @@ Authenticate with the GitHub API using a personal access token to increase rate 
 **Usage:**
 
 ```bash
-good-first-issue mocha --auth <GITHUB_TOKEN>
+good-first-issue mocha --auth <YOUR_PERSONAL_ACCESS_TOKEN>
 ```
