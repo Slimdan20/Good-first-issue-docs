@@ -80,10 +80,10 @@ jobs:
       - run: npm install -g good-first-issue
 
       # Run CLI in non-interactive mode against a repository
-      - run: good-first-issue my-org/my-repo --first --auth ${{ secrets.GITHUB_TOKEN }}
+      - run: good-first-issue my-org/my-repo --first --auth ${{ secrets.GH_PAT }}
 ```
 
-<i>The `GITHUB_TOKEN` secret is automatically provided by GitHub Actions.</i>
+<i> Add your GitHub personal access token as a repository secret named `GH_PAT` in your repository Settings.</i>
 
 ### CircleCI
 
@@ -107,7 +107,7 @@ jobs:
           command: npm install -g good-first-issue
       - run:
           name: Run Good First Issue check
-          command: good-first-issue my-org/my-repo --first --auth $GITHUB_TOKEN
+          command: good-first-issue my-org/my-repo --first --auth $GH_PAT
 
 workflows:
   version: 2
@@ -116,4 +116,4 @@ workflows:
       - check_good_first_issues
 ```
 
-<i>Ensure `GITHUB_TOKEN` is configured as an environment variable in your CircleCI project settings.</i>
+<i>Ensure `GH_PAT` is configured as an environment variable in your CircleCI project settings.</i>
